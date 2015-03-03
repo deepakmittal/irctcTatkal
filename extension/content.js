@@ -54,7 +54,17 @@ if(window.location.hostname === 'www.irctc.co.in'){
 }
 if($("#avlAndFareForm").length !==0){
     console.log("starting 1..");
-    setTimeout(function(){refresh();}, 100);
+    setTimeout(function(){
+    
+        $(".rf-dt-c").click(function(){
+            setTimeout(function(){
+                refresh();
+            },1500);
+            
+    });
+    
+    
+    }, 100);
     //setTimeout(function(){clickWhenAvailable();}, 100);
 }
 if($("#addPassengerForm\\:psdetail\\:0\\:psgnName").length !==0){
@@ -89,7 +99,8 @@ function refresh(){
         console.log("outside the loop ..");
         console.log(chkPageObj[0]);
         simulateClick(chkPageObj[0]);
-        clickWhenAvailable();
+        if( $("input[name='quota']:checked").val() === 'CK')
+            clickWhenAvailable();
     }
 }
  

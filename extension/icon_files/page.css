@@ -1,0 +1,70 @@
+body, html {
+	font: 12px Arial, Helvetica, sans, sans-serif;
+	margin:	 0px;
+	padding: 0px;
+	height:	 100%;
+  background-color: white;
+}
+
+img {
+ display: block;
+}
+
+a {
+  color: #0086cb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.result {
+	font: 14px Arial, Helvetica, sans, sans-serif;
+  background-color: white;
+}
+
+.result a {
+  color: #0086cb;
+  text-decoration: none;
+}
+
+.image_disclaimer {
+	font: 9px Arial, Helvetica, sans, sans-serif;
+  text-decoration: none;
+  color: #c5c6c8;
+}
+
+.footer {
+  width: 600px;
+	font: 9px Arial, Helvetica, sans, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: #c5c6c8;
+}
+
+.footer a {
+	background-color: #0086cb; 
+	font: 9px Arial, Helvetica, sans, sans-serif;
+	text-align:right;
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer .social_media_knoppen {
+  width: 195px;
+  margin: auto;
+}
+
+.footer .tekst {
+  padding: 6px;
+  margin: auto;
+}
+
+#page_buttons {
+	font: bold 11px Arial, Helvetica, sans, sans-serif;
+}
